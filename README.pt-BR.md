@@ -63,6 +63,11 @@ claude plugin eval plugin
 
 Roda cada caso com e sem o plugin e mostra a diferença. Gasta a cota do plano ou crédito de API.
 
+Última rodada (03/10/2026, Claude Code 2.1.285, 3 execuções por caso, `--judge-model sonnet`, cerca de US$ 4
+a preço de tabela): **21 de 21 passam com o plugin, 11 de 21 sem ele**, e a skill certa disparou em 21 de 21.
+As duas rodadas anteriores ensinaram uma coisa: com a pasta vazia, as skills faziam o Claude parar e pedir o
+projeto em vez de responder, então os pedidos agora trazem o próprio contexto.
+
 ## Licença
 
 Ainda não escolhida. Até existir um arquivo `LICENSE`, todos os direitos são reservados.

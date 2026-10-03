@@ -12,8 +12,7 @@ reminder in the prompt. It is a script standing at the choke point (commit, expo
 **Why.** In the project this method comes from, one day produced nine separate incidents, each
 caused by a rule that only lived in someone's memory. Another time two deploys in a row left the
 main branch red because generated types did not match the database schema; the CI asked that
-question *after* the push. The guard now asks the same question one step *before* the push, and the
-red main never came back.
+question *after* the push. The guard now asks the same question one step *before* the push.
 
 ## Process
 

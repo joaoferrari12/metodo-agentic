@@ -2,4 +2,4 @@
 type: llm
 ---
 
-PASS if the reply sets up a SessionStart hook that only acts in the cloud session (for example checking CLAUDE_CODE_REMOTE), pins the playwright version, and wires git hooks (core.hooksPath or executable bit). FAIL if it suggests manual setup each session.
+PASS if the reply proposes, even as a plan for when the repository is available, a SessionStart hook that acts only in cloud sessions (not on the local machine), installs a pinned playwright version, and turns on the repository's git hooks. FAIL if it suggests repeating manual setup in each session, or omits the hook.

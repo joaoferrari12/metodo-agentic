@@ -12,7 +12,7 @@ anyone complains.
 
 **Why.** In the project this method comes from, the owner, using the product as a shop owner would,
 found a defect that **three green verifiers** had not caught. Each verifier checked its own piece;
-nobody walked the flow. The battery was born the same day.
+nobody walked the flow. That is the gap a battery closes.
 
 ## Process
 

@@ -65,6 +65,11 @@ claude plugin eval plugin
 It runs each case with and without the plugin and reports the difference. It uses your plan or API
 credits.
 
+Last run (2026-10-03, Claude Code 2.1.285, 3 runs per case, `--judge-model sonnet`, about US$ 4 at list
+price): **21 of 21 runs pass with the plugin, 11 of 21 without it**, and the right skill fired in 21 of 21.
+The two runs before it taught something: in an empty workspace the skills made Claude stop and ask for
+the project instead of answering, so the prompts now carry their own context.
+
 ## Principles under the skills
 
 - A run, not small batches. The record is written once, at the start and at the end.

@@ -14,7 +14,8 @@ that once, inside the repository.
 the cloud, with no laptop involved. What failed was only the environment: the browser-automation
 library installed at a version that wanted a download the container forbids, the shared rules folder
 that only existed next to the repository on the laptop, and a commit hook that git ignored because it
-was not marked executable. One hook script fixed all three.
+was not marked executable. One hook script fixed the first and the last. The second taught the rule in
+step 7: a cloud session only reaches the repositories selected when it starts.
 
 ## Process
 

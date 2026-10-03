@@ -6,8 +6,8 @@ description: Answers "is this going fast enough?" or "is this the right way to w
 # Measure pace in git
 
 When someone asks whether the strategy is working, the answer is a table from `git log`, not
-"it's going well". And measure **before** defending: more than once, the number contradicted the
-defense that was about to be made.
+"it's going well". And measure **before** defending: once, the number contradicted the defense
+that was about to be made.
 
 **Why, and the trap.** The obvious measure is the span between a run's first and last commit. In the
 project this method comes from, that measure **silently stopped working**: once the agent started
