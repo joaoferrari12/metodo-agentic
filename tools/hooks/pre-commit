@@ -1,0 +1,3 @@
+#!/bin/sh
+# Wired with: git config core.hooksPath tools/hooks
+exec node "$(git rev-parse --show-toplevel)/tools/check-leaks.mjs"

@@ -1,0 +1,3 @@
+# Fim de linha LF em tudo, como nos outros repositórios: sem isso o Git troca LF por CRLF no Windows
+# e um arquivo reescrito inteiro vira um diff de centenas de linhas onde nada mudou.
+* text=auto eol=lf

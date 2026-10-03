@@ -1,0 +1,6 @@
+#!/bin/sh
+# A pre-commit guard. Enable once per clone with:  git config core.hooksPath <folder with this file>
+# On Linux and macOS the file must be executable, and git must store it that way:
+#   git update-index --chmod=+x <folder>/pre-commit
+# Replace the line below with the rule this project cannot afford to forget.
+exec node "$(git rev-parse --show-toplevel)/scripts/check-docs.mjs"

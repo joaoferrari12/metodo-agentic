@@ -1,0 +1,13 @@
+{
+  "facts": [
+    { "id": "phase", "home": "docs/STATUS.md", "pattern": "current phase is" },
+    { "id": "next-milestone", "home": "docs/STATUS.md", "pattern": "next milestone:" }
+  ],
+  "stateFiles": [
+    { "path": "docs/STATUS.md", "maxLines": 120 }
+  ],
+  "versionedOutsideGit": [
+    "docs/project-instructions.txt"
+  ],
+  "ignore": ["archive/", "node_modules/"]
+}

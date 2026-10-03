@@ -1,0 +1,14 @@
+{
+  "name": "joaoferrari12",
+  "owner": { "name": "Joao Victor", "url": "https://github.com/joaoferrari12" },
+  "description": "Skills for shipping production software with Claude Code: runs, guards that refuse, batteries that log right and wrong, and verdicts measured in git.",
+  "plugins": [
+    {
+      "name": "metodo-agentic",
+      "source": "./plugin",
+      "description": "Seven skills that turn 'remember to' into scripts that refuse, and 'are we done?' into a verdict with numbers.",
+      "category": "development",
+      "tags": ["workflow", "guards", "testing", "documentation", "git", "claude-code"]
+    }
+  ]
+}
