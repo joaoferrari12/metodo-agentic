@@ -35,8 +35,8 @@ Todo script é Node puro, sem dependência, de propósito: verificador que preci
 
 ## De onde veio
 
-Construí enquanto punha no ar, sozinho, um SaaS multiempresa para pequenos negócios de serviço, com o
-Claude Code digitando a maior parte, desde julho de 2026. Os números, medidos nos repositórios desse
+Construí enquanto punha no ar, sozinho, o [Ferra](https://app.ferraia.com), um SaaS multiempresa para
+pequenos negócios de serviço, com o Claude Code digitando a maior parte, desde julho de 2026. Os números, medidos nos repositórios desse
 produto em 03/10/2026:
 
 | | | Como foi medido |
@@ -70,4 +70,5 @@ projeto em vez de responder, então os pedidos agora trazem o próprio contexto.
 
 ## Licença
 
-Ainda não escolhida. Até existir um arquivo `LICENSE`, todos os direitos são reservados.
+[Apache License 2.0](LICENSE). Quem redistribuir ou construir em cima mantém o arquivo [NOTICE](NOTICE),
+que leva o nome do autor.

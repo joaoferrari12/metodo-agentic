@@ -36,8 +36,8 @@ checker that stops running.
 
 ## Where this came from
 
-I built it while shipping a multi-tenant SaaS for small service businesses, solo, with Claude Code
-doing most of the typing, from July 2026. The numbers, measured in that product's repositories on
+I built it while shipping [Ferra](https://app.ferraia.com), a multi-tenant SaaS for small service
+businesses, solo, with Claude Code doing most of the typing, from July 2026. The numbers, measured in that product's repositories on
 2026-10-03:
 
 | | | How it was measured |
@@ -83,4 +83,5 @@ the project instead of answering, so the prompts now carry their own context.
 
 ## License
 
-Not chosen yet. Until a `LICENSE` file is added, all rights are reserved.
+[Apache License 2.0](LICENSE). If you redistribute this work or build on it, keep the [NOTICE](NOTICE)
+file, which carries the author's name.

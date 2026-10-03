@@ -3,8 +3,19 @@
   "displayName": "Método Agentic",
   "version": "0.1.0",
   "description": "A working method for building production software with Claude Code, as installable skills: plan a run, guard that refuses, right-and-wrong battery, docs that point instead of repeat, three-bucket verdict, cloud session hook, pace measured in git.",
-  "author": { "name": "Joao Victor", "url": "https://github.com/joaoferrari12" },
+  "author": {
+    "name": "Joao Victor",
+    "url": "https://github.com/joaoferrari12"
+  },
   "homepage": "https://github.com/joaoferrari12/metodo-agentic",
   "repository": "https://github.com/joaoferrari12/metodo-agentic",
-  "keywords": ["workflow", "guards", "testing", "documentation", "git", "agentic-engineering"]
+  "license": "Apache-2.0",
+  "keywords": [
+    "workflow",
+    "guards",
+    "testing",
+    "documentation",
+    "git",
+    "agentic-engineering"
+  ]
 }

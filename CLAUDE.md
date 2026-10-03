@@ -15,6 +15,8 @@ A Claude Code plugin (the `plugin/` folder) published through a marketplace at t
 ## Rules for the content
 
 - Examples use invented businesses and data only. No code, schema, names or numbers from any private
-  product beyond the measured figures in the README table.
+  product beyond the measured figures in the README table and the product's name and public URL in
+  the README's origin section.
+- License: Apache-2.0. Keep `NOTICE` in every release.
 - Every skill opens with the incident that made it necessary, told without names.
 - Every number has the command that produced it next to it.
